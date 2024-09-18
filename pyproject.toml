@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fast-api"
+version = "0.1.0"
+description = ""
+authors = ["tdubeuts22 <117575715+tdubeuts22@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.2.2"
+scikit-learn = "1.5.1"
+fastapi = "0.111.0"
+uvicorn = "0.30.1"
+joblib = "1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
